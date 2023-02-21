@@ -90,4 +90,3 @@ jobs:
       run: |-
         envsubst < deployment.yml | kubectl apply -f -      
         envsubst < service.yml | kubectl apply -f -
-        envsubst < ingress.yml | kubectl apply -f -
