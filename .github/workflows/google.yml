@@ -31,8 +31,8 @@ jobs:
       name: 'Authenticate to Google Cloud'
       uses: 'google-github-actions/auth@v1'
       with:
-        workload_identity_provider: 'projects/549315440769/locations/global/workloadIdentityPools/github-wif-pool/providers/githubwif'
-        service_account: hschan-javademoappsvcacc@sincere-actor-374621.iam.gserviceaccount.com #$GKE_SERVICE_ACCOUNT@$GKE_PROJECT.iam.gserviceaccount.com
+        workload_identity_provider: 'projects/14628868216/locations/global/workloadIdentityPools/github-wif-pool/providers/githubwif'
+        service_account: gcptutorials-sa@quiet-cider-377407.iam.gserviceaccount.com #$GKE_SERVICE_ACCOUNT@$GKE_PROJECT.iam.gserviceaccount.com
 
     - id: gen_tags
       run: |
@@ -72,8 +72,8 @@ jobs:
     - id: 'auth'
       uses: 'google-github-actions/auth@v1'
       with:
-        workload_identity_provider: 'projects/549315440769/locations/global/workloadIdentityPools/github-wif-pool/providers/githubwif'
-        service_account: hschan-javademoappsvcacc@sincere-actor-374621.iam.gserviceaccount.com #"$GKE_SERVICE_ACCOUNT@$GKE_PROJECT.iam.gserviceaccount.com"
+        workload_identity_provider: 'projects/14628868216/locations/global/workloadIdentityPools/github-wif-pool/providers/githubwif'
+        service_account: gcptutorials-sa@quiet-cider-377407.iam.gserviceaccount.com #"$GKE_SERVICE_ACCOUNT@$GKE_PROJECT.iam.gserviceaccount.com"
 
     # Get the GKE credentials so we can deploy to the cluster
     - id: 'get-credentials'
