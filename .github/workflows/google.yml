@@ -5,10 +5,10 @@ on: [workflow_dispatch]
    # branches: [ "master" ]  
 env:
   GKE_PROJECT: quiet-cider-377407
-  GKE_CLUSTER: Anusha-javademoapp-cluster
-  GKE_APP_NAME: Anusha-javademoapp
-  GKE_SERVICE: Anusha-serviceforjavademoapp
-  GKE_INGRESS: Anusha-ingressforjavademoapp
+  GKE_CLUSTER: anusha-javademoapp-cluster
+  GKE_APP_NAME: anusha-javademoapp
+  GKE_SERVICE: anusha-serviceforjavademoapp
+  GKE_INGRESS: anusha-ingressforjavademoapp
   GKE_SERVICE_ACCOUNT: gcptutorials-sa
   GKE_REGION: us-central1
   GKE_ZONE: us-central1-c
