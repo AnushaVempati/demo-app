@@ -5,7 +5,7 @@ on: [workflow_dispatch]
    # branches: [ "master" ]  
 env:
   GKE_PROJECT: ${{ secrets.GKE_PROJECT }}
-  GKE_CLUSTER: hschan-javademoapp-cluster
+  GKE_CLUSTER: Anusha-javademoapp-cluster
   GKE_APP_NAME: Anusha-javademoapp
   GKE_SERVICE: Anusha-serviceforjavademoapp
   GKE_INGRESS: Anusha-ingressforjavademoapp
